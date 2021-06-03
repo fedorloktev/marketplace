@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="scriptLot.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1>About lot</h1>
+        <hr>
+        <br>
+        <form action="" name="addNewLot">
+            <label class="title">Product name:</label>
+            <input id="productName" class="inputField" name="prodName" maxlength="25" type="text" placeholder="Name">
+            <br>
+            <label class="titleTop">Description:</label>
+            <textarea id="productDescription" name="description" maxlength="100"
+                placeholder="Product description"></textarea>
+            <br>
+            <label class="title">Start price:</label>
+            <input id="startPrice" class="inputField" name="startPrice" maxlength="25" type="text" placeholder="10.5">
+            <br>
+            <label class="title">Min bid:</label>
+            <input id="minBid" class="inputField" name="minBid" maxlength="25" type="text" placeholder="10.5">
+            <br>
+            <label class="title">Stop date:</label>
+            <input id="stopDate" class="inputField" name="stopDate" maxlength="25" type="datetime"
+                placeholder="YYYY-MM-DD hh:mm:ss">
+            <br>
+            <button type="submit">Complete</button>
+        </form>
+    </div>
+</body>
+
+</html>

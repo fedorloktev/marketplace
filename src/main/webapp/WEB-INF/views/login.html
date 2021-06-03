@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="scriptLogin.js"></script>
+</head>
+
+<body>
+    <form action="" name="signIn">
+        <div class="main">
+            <h1>Sign In</h1>
+            <hr>
+            <label class="title">Login: </label>
+            <input id="login" class="login" name="login" maxlength="25" type="text" pattern="^[a-zA-Z_\-]+$">
+            <br>
+
+            <label class="title">Password:</label>
+            <input id="password" class="password" name="password" maxlength="25" type="password">
+            <br>
+            <button type="submit">Join In</button>
+            <button type="button" onClick="document.location='registration.html'">Registration</button>
+            <button type="button" onClick="document.location='auction.html'">Join as guest</button>
+            <a href="admin.html"><u><i>As admin</i></u></a>
+        </div>
+    </form>
+</body>
+
+</html>

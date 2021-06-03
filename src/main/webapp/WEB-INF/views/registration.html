@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="scriptRegistration.js"></script>
+</head>
+
+<body>
+    <form action="" name="registration">
+        <div class="mainReg">
+            <h1>Registration</h1>
+            <hr>
+            <label class="title">Your fullname:</label>
+            <input id="fullname" class="inputField" name="fullname" type="text" placeholder="Ivan Ivanov">
+            <br>
+            <label class="titleTop" name="address">Your address:</label>
+            <textarea id="address" maxlength="100" placeholder="Billing address"></textarea>
+            <br>
+            <label class="title">Your login:</label>
+            <input id="login" class="inputField" name="login" type="text" placeholder="Login">
+            <br>
+            <label class="title">Your password:</label>
+            <input id="password" class="inputField" name="password" type="password" placeholder="Password">
+            <br>
+            <label class="title">Repeat password:</label>
+            <input id="repassword" class="inputField" name="repassword" type="password" placeholder="Password">
+            <br>
+            <button type="submit">Complete</button>
+            <button type="button" onClick="document.location='login.html'">Back</button>
+        </div>
+    </form>
+</body>
+
+</html>

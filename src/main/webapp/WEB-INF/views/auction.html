@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="scriptAuction.js"></script>
+</head>
+
+<body>
+    <div class="auction" onLoad="showLots()">
+        <div>
+            <form action="" name="auction">
+                <h1>Auction</h1>
+                <br>
+                <hr>
+                <br>
+                <input class="findLot" id="search" maxlength="25" type="text" placeholder="Key word"
+                    pattern="^[a-zA-Z_\-]+$">
+                <button id="searchWord" class="search" type="button" onClick="showLots(this.id)">Search title</button>
+                <label class="username" id="username"></label>
+                <button type="button" class="buttonLogout" onClick="document.location='login.html'">Logout</button>
+                <br>
+            </form>
+        </div>
+
+        <div>
+            <hr>
+            <br>
+            <button id="findAll" type="button" class="buttonFilter" onClick="showLots(this.id)">All products</button>
+            <button id="searchMyProd" type="button" class="buttonFilter" onClick="showLots(this.id)">My
+                products</button>
+            <br>
+            <button id="addLot" type="button" class="buttonAddLot" onClick="document.location='addLot.html'">Add
+                lot</button>
+            <form action="" name="bidding">
+                <table id="table">
+                    <tr>
+                        <th>UID</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Seller</th>
+                        <th>Start price</th>
+                        <th>Bid min</th>
+                        <th>Best offer</th>
+                        <th>Bidder</th>
+                        <th>Stop date (UTC+4)</th>
+                        <th>Bid</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><b>Data is loading now...</b></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tbody id="test_lots"></tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

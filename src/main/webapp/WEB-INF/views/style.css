@@ -1,0 +1,146 @@
+.title {
+    font-weight: bolder;
+    margin: 15px;
+}
+.titleTop {
+    font-weight: bolder;
+    margin: 15px;
+    vertical-align: top; 
+}
+.validMess {
+    color: rgb(170, 0, 0);
+}
+.search {
+    cursor: pointer;
+    margin: 5px 0px -10px;
+    background-color: rgb(238, 236, 243);
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkblue;
+    height: 20px;
+    width: 100px;
+}
+.findLot {
+    vertical-align: top;
+    float: left;
+    width: 200px;
+}
+.inputBid {
+    width: 30%;
+}
+input {
+    margin: 5px;
+}
+textarea {
+    margin: 5px;
+    width: 240px;
+    resize: none;
+}
+.main {
+    height: 30%;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(192, 182, 223);
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue;
+}
+.mainReg {
+    height: 30%;
+    width: 420px;
+    margin: auto;
+    background-color: rgb(192, 182, 223);
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue; 
+}
+.auction {
+    height: 30%;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(192, 182, 223);
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue; 
+}
+h1 {
+    text-align: center;
+    height: 15px;
+}
+button {
+    cursor: pointer;
+    background-color: rgb(238, 236, 243);
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkblue;
+    display: block;
+    margin:  5px auto;
+    height: 25px;
+    width: 100px;
+}
+.inputField {
+    width: 239px;
+}
+.login {
+    width: 239px;
+}
+.password {
+    width: 239px;
+}
+.buttonLogout {
+    float: right;
+    margin: -10px 0px auto; 
+    height: 20px;
+}
+.buttonFilter {
+    width: 200px;
+    margin: 0 auto 0 10px;
+}
+.buttonAddLot {
+    width: 20%;
+    margin: 0 3% 5px auto;
+}
+.buttonBidding {
+    width: 50%;
+    float: right; 
+    margin: 5px 5px auto 0px; 
+    height: 20px;
+}
+.username {
+    float: right;
+    margin: -33px 12px auto ;
+    height: 20px;
+}
+span {
+    text-align: center;
+    height: 15px;
+}
+table {
+    margin: auto;
+    width: 95%;
+    border: 5px;
+    border-color: darkblue;
+    border: solid;
+}
+th {
+    background-color:lightsalmon;
+    text-align: center;
+    border: 1px solid;
+}
+tr {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+td {
+    cursor: pointer;
+}
+
